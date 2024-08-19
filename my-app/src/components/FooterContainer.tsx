@@ -7,7 +7,7 @@ import twitterxLogo from "../pictures/twitterx.png"
 
 const FooterContainer = () => {
     return (
-        <div className="footer-container flex justify-between bg-black">
+        <div className="footer-container flex justify-between bg-black flex-col sm:flex-row">
             <div className="content-center ml-4">
                 <img src={logo}alt="company-logo" className="footer-logo content-center w-20 h-18 mx-auto flex justify-center" />
                 <p className="text-center mb-4 text-white">see our social media</p>

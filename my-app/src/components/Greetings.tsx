@@ -6,7 +6,7 @@ const Greetings = () => {
         <img src={require('../pictures/company-logo-bw.png')} alt="Company logo" 
         className='w-40 h-40 mx-auto'/>
         <h1>Web Designer and Developer</h1>
-        <p>Expertise in React, JavaScript, and modern web technologies</p>
+        <p className='px-5'>Expertise in React, JavaScript, and modern web technologies</p>
     </div>
   )
 }
