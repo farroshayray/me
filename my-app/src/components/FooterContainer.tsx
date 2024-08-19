@@ -32,7 +32,7 @@ const FooterContainer = () => {
                 <a href="#" className="m-1 hover:text-blue-500">Docs</a>
                 <a href="#" className="m-1 hover:text-blue-500">About Us</a>
             </div>
-            <div className="mr-6 content-center text-white my-10 flex flex-col justify-center">
+            <div className="mr-0 content-center text-white my-10 flex flex-col justify-center sm:mr-6">
                 <a href="#" className="m-1 hover:text-blue-500">Projects</a>
                 <a href="#" className="m-1 hover:text-blue-500">Products</a>
                 <a href="#" className="m-1 hover:text-blue-500">Company</a>
