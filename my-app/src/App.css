@@ -1,5 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
+}
+.navbar {
+  font-size: larger;
 }
 
 .App-logo {
