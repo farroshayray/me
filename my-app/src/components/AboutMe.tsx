@@ -9,6 +9,8 @@ const AboutMe = () => {
       const scrollPosition = window.scrollY;
       if (scrollPosition > 200) {
         setIsVisible(true);
+      } else {
+        setIsVisible(false);
       }
     };
 
