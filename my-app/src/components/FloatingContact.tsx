@@ -39,7 +39,7 @@ const FloatingContact:React.FC<ExpandButtonProps> = ({ direction = "right" }) =>
           animate="visible"
           exit="hidden"
           variants={variants}
-          className="p-4 w-auto bg-opacity-20 backdrop-blur-md rounded-xl shadow-md"
+          className="p-4 w-auto  rounded-xl shadow-md"
         >
           <div>
             <a href="https://github.com/farroshayray" target="_blank" rel="noopener noreferrer">
