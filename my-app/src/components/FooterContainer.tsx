@@ -1,27 +1,27 @@
 import React, { useState } from "react";
 import logo from "../pictures/company-logo-bw.png"
-import facebookLogo from "../pictures/facebook.png";
+import githubLogo from "../pictures/github.png"
 import instagramLogo from "../pictures/instagram.png"
 import linkedinLogo from "../pictures/linkedin.png"
 import twitterxLogo from "../pictures/twitterx.png"
 
 const FooterContainer = () => {
     return (
-        <div className="footer-container flex justify-between bg-black flex-col sm:flex-row">
+        <div id="contact" className="footer-container flex justify-between bg-black flex-col sm:flex-row">
             <div className="content-center ml-4">
                 <img src={logo}alt="company-logo" className="footer-logo content-center w-20 h-18 mx-auto flex justify-center" />
                 <p className="text-center mb-4 text-white">see our social media</p>
                 <div className="flex text-center justify-center">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                            <img src={facebookLogo} alt="a" className="m-1 w-8 h-8 hover:bg-slate-700 rounded-md"/>
+                    <a href="https://github.com/farroshayray" target="_blank" rel="noopener noreferrer">
+                            <img src={githubLogo} alt="a" className="m-1 w-8 h-8 hover:bg-slate-700 rounded-md"/>
                         </a>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/farroshayray/" target="_blank" rel="noopener noreferrer">
                             <img src={instagramLogo} alt="b" className="m-1 w-8 h-8 hover:bg-slate-700 rounded-md"/>
                         </a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/farros/" target="_blank" rel="noopener noreferrer">
                             <img src={linkedinLogo} alt="c" className="m-1 w-8 h-8 hover:bg-slate-700 rounded-md"/>
                         </a>
-                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://x.com/farroshayray" target="_blank" rel="noopener noreferrer">
                             <img src={twitterxLogo} alt="d" className="m-1 w-8 h-8 hover:bg-slate-700 rounded-md"/>
                         </a>
                 </div>
